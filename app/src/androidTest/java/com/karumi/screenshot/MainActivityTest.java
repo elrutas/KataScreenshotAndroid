@@ -70,7 +70,7 @@ public class MainActivityTest extends ScreenshotTest {
   }
 
   @Test public void showsListOfSuperHeroesIfThereIsAnAvenger() {
-    givenThereAreSomeSuperHeroes(1, true);
+    givenThereAreSomeSuperHeroes(1, false);
 
     Activity activity = startActivity();
 
